@@ -106,12 +106,18 @@ body {
 		text-align: center;
 	}
 
+	.experiences h2 {
+		margin-left: -30px;
+		background-color: #212B2E;
+		color: #2ECEF1;
+	}
+
 	.intitulé h4 {
 		margin-left: 90px;
-		background-color: #212B2E;
 		text-align: center;
 		font-size: 30px;
-		color: #2ECEF1;
+		font-weight: bold;
+		color: #212B2E;
 	}
 
 	.intitulé hr {
@@ -140,13 +146,24 @@ body {
 		border-color: #2ECEF1;	
 	}
 
+	.details li {
+		list-style: none;
+		height: 30px;
+	}
+
 	.progIcons {
-		width: 2px;
-		height: 2px;
-		padding: 4px;
+		padding: 20px;			
 	}	
 
 .frameworks {
 	display: block;
 	float: left;
-}	
+}
+
+	.frameworks li {
+		list-style: none;
+	}
+
+	.frameworks hr {
+		border-color: #2ECEF1;
+	}	

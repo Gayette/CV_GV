@@ -19,7 +19,8 @@ body {
 //// HEADER //////   /* Icon, Titre, Contact
 ////////////////*/
 .siteHeader {
-	height: 220px;
+	height: 200px;
+	margin-top: 10px;
 	display: inline-block;
 	background-color: #212B2E;
 }
@@ -56,13 +57,15 @@ body {
 
 .contact {
 	position: relative;
-	margin-top: 40px;
-	float: right;
 	display: inline-block;
+	margin-top: -20px;
+	padding-right: 5px;
+	float: right;
 }
 
 	.contact li {
 		list-style: none;
+		margin-right: 20px;
 	}
 
 	.contact h4 {
@@ -84,7 +87,7 @@ body {
 / LEFT_CONTAINER// 		/* Niveaux, Liens
 ////////////////*/
 .leftContainer {
-	height: 500px; /* temporaire */
+	height: 600px; /* temporaire */
 	background-color: #212B2E;
 }
 
@@ -112,13 +115,13 @@ body {
 		color: #2ECEF1;
 	}
 
-	.intitulé h4 {
-		margin-left: 90px;
-		text-align: center;
-		font-size: 30px;
-		font-weight: bold;
-		color: #212B2E;
-	}
+.intitulé h4 {
+	margin-left: -100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #212B2E;
+}
 
 	.intitulé hr {
 			width: auto;
@@ -143,7 +146,8 @@ body {
 	}
 
 	.details hr {
-		border-color: #2ECEF1;	
+		border-color: #2ECEF1;
+		margin-bottom: 2px;	
 	}
 
 	.details li {
